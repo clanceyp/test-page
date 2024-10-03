@@ -7,5 +7,11 @@
   </head>
   <body>
     <h1>hello i'm your test</h1>
+    
   </body>
+  <script>
+    (() => {
+      document.querySelector("h1").insertAdjacentHTML('afterend','<p>foo</p>')
+    })()
+  </script>
 </html>
