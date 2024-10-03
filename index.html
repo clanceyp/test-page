@@ -6,12 +6,12 @@
     <style>h1 {color: darkred;}</style>
   </head>
   <body>
-    <h1>hello i'm your test 2</h1>
+    <h1>hello i'm your test 3</h1>
     
   </body>
   <script>
     (() => {
-      document.querySelector("h1").insertAdjacentHTML('afterend','<p>foo</p>')
+      document.querySelector("h1").insertAdjacentHTML('afterend','<textarea>'+ ocument.querySelector("body").outerHTML +'</textarea>')
     })()
   </script>
 </html>
